@@ -75,3 +75,45 @@ body {
         }
     }
 }
+
+.center-header {
+    position: absolute;
+    max-height: 70%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;    
+}
+
+h3 {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 200px;
+    margin: 24px auto;
+    padding: 20px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fed136;
+    background-color: #fed136;
+    a {
+        text-decoration: none;
+        color: #ffffff;        
+    }
+    a:hover {
+        color: black;
+    }
+}
