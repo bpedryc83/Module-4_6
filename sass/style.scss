@@ -211,3 +211,35 @@ section.portfolio {
     background: white!important;
     padding-bottom: 10px;
 }
+
+/* Footer */@at-root
+
+footer {
+    div {
+        background: white;
+        padding: 25px 0;
+    }
+}
+
+.list-inline {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        margin-right: 10px;
+        line-height: 40px;    
+    }
+    i {
+        text-align: center;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: inherit!important;
+        border-radius: 50%;
+        color: white;
+        background: gray;    
+    }
+}
