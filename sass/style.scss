@@ -130,11 +130,14 @@ section.services {
     div {
         background: white;
     }
-    p {
-        color:rgb(89, 82, 82);
-        line-height: 1.2;
-        padding: 0 20px;
-    }
+}
+
+p {
+    color:rgb(89, 82, 82);
+    line-height: 1.3;
+    padding: 0 20px;
+    font-family: $font-standard;
+    font-size: 14px;
 }
 
 h2 {
@@ -176,4 +179,35 @@ h6 {
     border-color: #fed136;
     border: 4px solid;
     color:#fed136;
+}
+
+
+/* Section Our Portfolio */
+
+section.portfolio {
+    font-size: 16px;
+    div {
+        background: #f7f7f7;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+        font-style: italic;
+    }
+}
+
+.portfolio-picture {
+    background: white;
+    font-size: 0;
+    img {
+        width: 100%;
+        height: 100%;
+        max-width: 400px;
+        object-fit: cover;
+    }
+}
+
+.portfolio-description {
+    background: white!important;
+    padding-bottom: 10px;
 }
