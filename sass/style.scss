@@ -243,3 +243,59 @@ footer {
         background: gray;    
     }
 }
+
+
+
+/* Media */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .golden {
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .navigation {    
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 14px;
+        max-width: 150px;
+        margin: 14px auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 599px) {
+    .golden {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .nav_and_header {
+        img {
+            min-height: 400px;
+        }
+    }
+    .navigation {    
+        font-size: 8px;
+        li {
+            margin-right: 12px;
+        }
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 10px;
+        max-width: 150px;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
